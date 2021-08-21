@@ -1,4 +1,4 @@
-// ControlStructures
+Ôªø// ControlStructures
 #include <iostream>
 #include<conio.h>
 using namespace std;
@@ -13,32 +13,32 @@ void main()
 
 
     int temperature;
-    cout << "¬‚Â‰ËÚÂ ÚÂÏÔÂ‡ÚÛÛ ‚ÓÁ‰Ûı‡\n"; cin >> temperature;
+    cout << "–í–≤–µ–¥–∏—Ç–µ —Ç–µ–º–ø–µ—Ä–∞—Ç—É—Ä—É –≤–æ–∑–¥—É—Ö–∞\n"; cin >> temperature;
     if (temperature > 0)
     {
-        cout << "Õ‡ ÛÎËˆÂ ÚÂÔÎÓ" << endl;
+        cout << "–ù–∞ —É–ª–∏—Ü–µ —Ç–µ–ø–ª–æ" << endl;
     }
     else
     {
-        cout << "Ì‡ ÛÎËˆÂ ıÓÎÓ‰ÌÓ" << endl;
+        cout << "–Ω–∞ —É–ª–∏—Ü–µ —Ö–æ–ª–æ–¥–Ω–æ" << endl;
     }
 #endif // IF_SIMPLE_CONDITION
 
 #ifdef TARGET
 
-    int namber;//˜ËÒÎÓ ‚‚Ó‰ËÏÓÂ Ò ÍÎ‡‚Ë‡ÚÛ˚
-    cout << "¬‚Â‰ËÚÂ ˜ËÒÎÓ \n"; cin >> namber;
+    int namber;//—á–∏—Å–ª–æ –≤–≤–æ–¥–∏–º–æ–µ —Å –∫–ª–∞–≤–∏–∞—Ç—É—Ä—ã
+    cout << "–í–≤–µ–¥–∏—Ç–µ —á–∏—Å–ª–æ \n"; cin >> namber;
     if (namber >=0 && namber<=10)
     {
-        cout << "÷ÂÎ¸ ÔÓ‡ÊÂÌ‡\n";
+        cout << "–¶–µ–ª—å –ø–æ—Ä–∞–∂–µ–Ω–∞\n";
     }
     else
     {
-        cout << "‚˚ ÔÓÏ‡ıÌÛÎËÒ¸\n";
+        cout << "–≤—ã –ø—Ä–æ–º–∞—Ö–Ω—É–ª–∏—Å—å\n";
     }
  
 #endif// TARGET
-    char key;// ¡Û‰ÂÚ ı‡ÌËÚ¸ ÍÓ‰ ÍÎ‡‚Ë¯Ë
+    char key;// –ë—É–¥–µ—Ç —Ö—Ä–∞–Ω–∏—Ç—å –∫–æ–¥ –∫–ª–∞–≤–∏—à–∏
     do
     {
         key = _getch();
